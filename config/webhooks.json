@@ -1,0 +1,19 @@
+[
+  {
+    "id" : "webhook_roundend",
+    "url" : "https://discordapp.com/api/webhooks/1014222563288825916/6mUNzoYjUWSKBrcoYGRbulwPuJYT_8DxO_jJHpsfwohfjDjtPUO1CTU-WQqfdUxx6N7L",
+    "mentions" : []
+  },
+  
+  {
+    "id" : "webhook_roundstart",
+    "url" : "https://discordapp.com/api/webhooks/1014222563288825916/6mUNzoYjUWSKBrcoYGRbulwPuJYT_8DxO_jJHpsfwohfjDjtPUO1CTU-WQqfdUxx6N7L",
+    "mentions" : []
+  },
+  
+  {
+    "id" : "webhook_custom_event",
+    "url" : "https://discordapp.com/api/webhooks/1014222563288825916/6mUNzoYjUWSKBrcoYGRbulwPuJYT_8DxO_jJHpsfwohfjDjtPUO1CTU-WQqfdUxx6N7L",
+    "mentions" : []
+  },
+]Ы
