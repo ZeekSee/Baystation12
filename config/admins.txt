@@ -6,4 +6,5 @@
 ######################################################################
 
 # not_a_user - Admin
-TheZeekSee - HOST +EVERYTHING
+TheZeekSee - Host
+
