@@ -1,7 +1,7 @@
 var/list/gamemode_cache = list()
 
 /datum/configuration
-	var/server_name = null				// server name (for world name / status)
+	var/server_name = "Utopia Station"				// server name (for world name / status)
 	var/server_suffix = 0				// generate numeric suffix based on server port
 	var/game_version = "Baystation12" //for topic status requests
 
@@ -92,8 +92,8 @@ var/list/gamemode_cache = list()
 	var/server
 	var/banappeals
 	var/wikiurl
-	var/forumurl
-	var/githuburl
+	var/forumurl = "https://discord.gg/zdaXjN4GCN"
+	var/githuburl = "https://github.com/ZeekSee/Baystation12/tree/Utopia"
 	var/issuereporturl
 
 	var/list/chat_markup
@@ -132,8 +132,8 @@ var/list/gamemode_cache = list()
 	var/run_delay = 2
 	var/walk_delay = 4
 	var/creep_delay = 6
-	var/minimum_sprint_cost = 0.8
-	var/skill_sprint_cost_range = 0.8
+	var/minimum_sprint_cost = 2
+	var/skill_sprint_cost_range = 2
 	var/minimum_stamina_recovery = 1
 	var/maximum_stamina_recovery = 3
 
@@ -223,7 +223,7 @@ var/list/gamemode_cache = list()
 	var/act_interval = 0.1 SECONDS //Interval for spam prevention.
 
 	var/max_explosion_range = 14
-	var/hub_visible = FALSE
+	var/hub_visible = TRUE
 
 	var/motd = ""
 	var/event = ""
